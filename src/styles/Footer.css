@@ -1,0 +1,22 @@
+footer {
+  position: fixed;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d1963a;
+  padding-top: 10px;
+  color: #394726;
+ 
+}
+
+.social-media-icons {
+  font-size: 18px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.footer-text{
+  font-size: 11px;
+}

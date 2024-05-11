@@ -1,0 +1,81 @@
+.Create-post-form-container {
+  font-family: "Alfabet";
+  color: #394726;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.form-create {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  width: 50%;
+  
+}
+
+.Create-post-form-container h2 {
+  font-size: 24px;
+  color: #955621;
+}
+
+label {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: #394726;
+  font-size: 16px;
+  text-align: left;
+}
+
+input {
+  font-size: 14px;
+  color: #487da0;
+  width: 94%;
+  border: #955621 solid 2px;
+  border-radius: 6px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+textarea {
+  font-size: 14px;
+  color: #487da0;
+  width: 94%;
+  border: #955621 solid 2px;
+  border-radius: 6px;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+select {
+  border: solid 2px #955621;
+  border-radius: 6px;
+  width: 98%;
+  padding: 10px;
+  font-family: "Alfabet";
+  font-size: 14px;
+  color: #487da0;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.submit-button{
+    margin: auto;
+    width: 200px;
+   
+}
+
+button{
+    width: 200px; 
+    margin: auto;
+}
+

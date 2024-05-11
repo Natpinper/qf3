@@ -1,0 +1,31 @@
+.profile-layout {
+    font-family: "Alfabet";
+    color: #394726;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    margin-bottom: 100px;
+    
+  }
+.myName {
+    font-size: 30px;
+    color: #394726;
+  }
+
+.profile-picture {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #ffffff; 
+    box-shadow: 0 2px 4px #487da0;
+  }
+ 
+  .PostList{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }

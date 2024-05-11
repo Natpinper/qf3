@@ -1,0 +1,163 @@
+.My-Profile-container{
+  color: #394726;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+
+.User-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.User-buttons button {
+  margin: 0 40px;
+  width: 120px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Alfabet";
+  background-color: #d1963a;
+  color: #955621;
+  border: #955621 solid 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button{
+  margin: 0 40px;
+  width: 120px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Alfabet";
+  background-color: #d1963a;
+  color: #955621;
+  border: #955621 solid 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.confirm-alert-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.confirm-alert {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.react-confirm-alert-body h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.react-confirm-alert-body {
+  text-align: center;
+}
+
+.react-confirm-alert-button-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.button-confirm {
+  padding: 10px;
+  width: 100px;
+}
+
+.profile-picture {
+  width: 150px; /* Set the width of the profile picture */
+  height: 150px; /* Set the height of the profile picture */
+  border-radius: 50%; /* Make it round by setting border-radius to 50% */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  border: 2px solid #ffffff; /* Add a border around the profile picture */
+  box-shadow: 0 2px 4px #487da0(0, 0, 0, 0.1);
+}
+.profile-picture-container {
+  justify-content: left;
+}
+
+.picture-and-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ gap: 100px;
+ padding: 0%;
+ width: 100%;
+ 
+}
+
+.profile-picture-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.picture-input {
+  margin-bottom: 10px;
+  width: 200px;
+  font-size: 10px;
+}
+
+.submit-picture-button {
+  width: 90px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Alfabet";
+  border: none;
+  background-color: transparent;
+  color: #955621;
+  border: #955621 solid 1px;
+  margin-left: 32%;
+}
+
+.submit-picture-button:hover {
+  background-color: #d1963a; /* Darken the background color on hover */
+}
+
+.myPosts {
+  color: #394726;
+  font-size: 18px;
+}
+
+.post-list-profile {
+  text-align: center;
+  width: 20%;
+  border:solid #d1963a 2px;
+  padding: 20px;
+
+}
+.profile-container{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+
+.profile-left{
+  width: 70%;
+}

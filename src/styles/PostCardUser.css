@@ -1,0 +1,11 @@
+.link-to-posts{
+    font-family: "Alfabet";
+    font-size: 14px;
+    text-align: justify;
+    text-decoration:underline;
+    color: #487da0;
+}
+
+.link-to-posts:active{
+    color: #955621;
+}

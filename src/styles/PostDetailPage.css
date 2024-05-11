@@ -1,0 +1,75 @@
+.PostDetails{
+    font-family: "Alfabet";
+    justify-content: center;
+    border: none;
+    padding: 20px;
+    margin: 20px auto;
+    color: #394726;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-details{
+color: #955621;
+font-size: 24px;
+}
+
+.user-name{
+  color: #487da0;
+  text-decoration: none;
+}
+
+.category{
+  font-size: 16px;
+}
+.subcategory{
+  font-size: 14px;
+}
+ .description{
+  line-height:1.4;
+  font-size: 14px;
+  text-align: justify;
+ }
+
+.button-like {
+    border: 2px solid #cc4b37;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0.5rem;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3rem;
+    color: red;
+    transition: all ease 0.6s;
+  }
+  
+  .button-like span {
+    margin-left: 0.5rem;
+    color: #394726
+  }
+  
+  .button-like:hover {
+    border-color: #cc4b37;
+    background-color: rgb(247, 209, 215);
+  }
+  
+  .button-like.clicked{
+    border-color: #cc4b37;
+    background-color: rgb(247, 209, 215);
+  }
+
+  .submit-button-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .specific-button{
+    width: 160px;
+  }

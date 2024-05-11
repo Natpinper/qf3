@@ -1,0 +1,80 @@
+ul {
+  background-color: #d1963a;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: fit-content;
+  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+  }
+
+li a {
+  display: block;
+  color: #394726;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 530;
+}
+
+.user-icon {
+    font-size: 25px;
+}
+
+.site-name {
+    font-family: "Berlin Sans FB";
+    font-style: normal;
+    font-size: 28px;
+    color: #394726;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .about-us {
+    font-family: "helvetica";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #394726;
+  }
+  .my-profile-button {
+    font-family: "helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: #394726;
+  }
+  .sign-out-icon {
+    font-size: 30px;
+  }
+  .user-logout {
+    background-color: #d1963a;
+    color: #394726;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 530;
+    background-color: transparent;
+  }
+  .navbar-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
